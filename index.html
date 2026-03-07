@@ -5,10 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Languaje Encripter</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/png" href="icon.png">
     </head>
     <body>
         <script src="index.js"></script>
-        <h1 class="letra1">Encriptador de Textos</h1>
-        <button ondblclick="BIN()">
+        <h1 class="letra1" >Encriptador de Textos</h1>
+        <textarea rows="5" cols="40" id="textos"></textarea><br>
+        <p class="letra1">Para ver los resultados da click derecho, ve a inspeccionar y dale a consola</p>
+        <button ondblclick="BIN()" class="button1">Binario</button>
+        <button ondblclick="MORS()" class="button2">Morse</button>
+        <button ondblclick="SUPER()" class="button3">Super</button>
+        <button onclick="CLEAR()" class="button1">Limpiar Salida</button><br>
+        <button onclick="iniciar()" class="button4">Iniciar sistema</button>
+        <button onclick="generarBit()" class="button4">Generar bit</button>
+
+        <p id="bitGenerado" class="OUT"></p>
+        <p id="bitDetectado" class="OUT"></p>
+
+        <img src="icon2.png" class="IMG">
+
+        <button class="SPACE">¿Por qué bajaste tanto?</button>
     </body>
 </html>
