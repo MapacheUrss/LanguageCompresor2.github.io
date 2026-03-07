@@ -201,3 +201,7 @@ function generarBit(){
     "Último bit generado: " + bit;
     console.log(bit);       
 }
+
+function REDIRECT(){
+   window.location.href = "https://es.pornhub.com"
+}
