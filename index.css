@@ -3,6 +3,13 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+.letra2{
+    color: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top: 45px;
+}
+
 .button1{
   background:#ffd43b;
   border:none;
@@ -97,3 +104,4 @@ p{
   left: 100px;
   border: rgba(13 96 96), rgba(0, 0, 0, 255);
 }
+
