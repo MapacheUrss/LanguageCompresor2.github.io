@@ -174,7 +174,8 @@ function detectar(){
         let promedio = suma / data.length;
 
         let bit = promedio > 20 ? 1 : 0;
-
+        bit = bit === 1 ? 0 : 1;
+        
         document.getElementById("bitDetectado").textContent =
         "Bit detectado: " + bit;
     },100);
