@@ -156,7 +156,7 @@ function DesBIN(){
         .map(b => String.fromCharCode(parseInt(b, 2)))
         .join("");
 
-    document.getElementById("OUT").textContent = texto;
+    document.getElementById("DesC").textContent = texto;
 }
 
 function detectar(){
