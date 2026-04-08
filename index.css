@@ -21,7 +21,7 @@
   transition:transform .2s, box-shadow .2s;
   position: relative;
   top: -15px;
-  left: 25px;
+  left: -125px;
 }
 
 .button2{
@@ -49,7 +49,7 @@
   transition:transform .2s, box-shadow .2s;
   position: relative;
   top: 55px;
-  left: -125px;
+  left: -250px;
 }
 
 .button4{
