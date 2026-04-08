@@ -147,6 +147,18 @@ async function iniciar(){
 
 }
 
+function DesBIN(){
+    let entrada = document.getElementById("textos").value;
+
+    let texto = entrada
+        .trim()
+        .split(/\s+/) // soporta espacios y saltos de línea
+        .map(b => String.fromCharCode(parseInt(b, 2)))
+        .join("");
+
+    document.getElementById("OUT").textContent = texto;
+}
+
 function detectar(){
     let bit1 = Math.round(Math.random());
 
